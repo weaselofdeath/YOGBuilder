@@ -245,22 +245,6 @@ function addDropDown(element, title, options) {
     }
 }
 
-// function expanderClicked() {
-//     toggleInfoExpand();
-// }
-//
-// function toggleInfoExpand(expanded) {
-//     if (expanded === undefined || expanded === null) {
-//         document.getElementById('expander').classList.toggle('expanded');
-//         document.getElementById('expanderContainer').classList.toggle('expanded');
-//     } else if (expanded) {
-//         document.getElementById('expander').classList.add('expanded');
-//         document.getElementById('expanderContainer').classList.add('expanded');
-//     } else {
-//         document.getElementById('expander').classList.remove('expanded');
-//         document.getElementById('expanderContainer').classList.remove('expanded');
-//     }
-// }
 
 // TODO: Look at db files and create a mapping of items/gem to icons/pictures
 // TODO: Also look up stats for each one
@@ -278,31 +262,20 @@ function addRuneAdditionalInfo(element) {
     additionalRuneInfoDiv.classList.add('infoSection', 'additionalRuneInfo', 'additionalInfo');
     element.appendChild(additionalRuneInfoDiv);
 
+
+
+
     // TODO: Instead of sections unique to each item type, generate all the sections and have a function for each item that setups
     // TODO: the card for that specific item type
-    // Card Rune Setup
-    // basic
-    //
-    // prefix ---------
-    //     *
-    //     *
-    //     *
-    // suffix -------------------
-    //     *
-    //     *
-    //     *
-    // exclusive -------------
-    //     *
-    // Rune Skills --------
-    //
-    // ------------------
-    // Who can equip on left and "<Type> Level: <MaxLevel>"
+
+
+
+
     // TODO: Looking into browser storage for current build. If there is a current build, ask if they want to start again or not
     // TODO: As the user puts in gems/runes/etc... save to something like window.currentBuild
-
-
-
 }
+
+
 
 function fillRuneSkillSection(element, runeItem) {
     let rune = findRuneItem(runeItem.name);
@@ -345,28 +318,15 @@ function infoLabelMouseDown(e) {
 function populateAndMoveInfoCard(e, parent) {
     let type = parent.dataset.type;
     let name = parent.dataset.name;
-    let infoImage = document.getElementById('itemInfoImage');
-    infoImage.classList.remove('runeSecondaryListItemImage');
-    infoImage.style.removeProperty('background-image');
-    infoImage.removeAttribute('src');
+    let infoCard = document.getElementsByClassName('infoCard')[0];
     switch (type) {
         case 'rune':
             let rune = findRuneItem(name);
             if (rune) {
-                document.getElementById('itemType').textContent = rune.rune_type === runeType.PRIMARY ? "Main Rune" : "Sub Rune";
-                document.getElementById('itemInfoName').textContent = rune.name;
-                for (let child of parent.childNodes) {
-                    if (child.tagName === 'IMG') {
-                        if (rune.rune_type === runeType.SECONDARY){
-                            infoImage.style.backgroundImage = child.style.backgroundImage;
-                            infoImage.classList.add('runeSecondaryListItemImage');
-                        } else {
-                            infoImage.style.backgroundImage = 'url(' + child.src + ')';
-                            // infoImage.src = child.src;
-                        }
-                    }
-                }
-                let infoCard = document.getElementsByClassName('infoCard')[0];
+                let img = parent.querySelector("img");
+                populateRuneInformation(rune,
+                    (rune.rune_type === runeType.PRIMARY ? 'url(' +img.src+')': img.style.backgroundImage),
+                    runeType.PRIMARY);
                 infoCard.style.display = 'block';
                 positionInfoCard(infoCard, e);
             }
@@ -374,17 +334,27 @@ function populateAndMoveInfoCard(e, parent) {
         case 'gem':
             let gem = findGemItem(name);
             if (gem) {
-                document.getElementById('itemType').textContent = "Gem";
-                document.getElementById('itemInfoName').textContent = gem.name;
-                // document.getElementById('itemInfoLevel').textContent = 'Max Level: N/A';
-                for (let child of parent.childNodes) {
-                    if (child.tagName === 'IMG') {
-                        infoImage.style.backgroundImage = 'url(' + child.src + ')';
-                    }
-                }
-                let infoCard = document.getElementsByClassName('infoCard')[0];
+
+
+
+                let img = parent.querySelector("img");
+                populateGemInformation(gem, 'url(' +img.src+')')
                 infoCard.style.display = 'block';
                 positionInfoCard(infoCard, e);
+
+
+
+                // document.getElementById('itemType').textContent = "Gem";
+                // document.getElementById('itemInfoName').textContent = gem.name;
+                // // document.getElementById('itemInfoLevel').textContent = 'Max Level: N/A';
+                // for (let child of parent.childNodes) {
+                //     if (child.tagName === 'IMG') {
+                //         infoImage.style.backgroundImage = 'url(' + child.src + ')';
+                //     }
+                // }
+                // let infoCard = document.getElementsByClassName('infoCard')[0];
+                // infoCard.style.display = 'block';
+                // positionInfoCard(infoCard, e);
             }
             break;
         default:

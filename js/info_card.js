@@ -1,22 +1,6 @@
 // TODO: Instead of sections unique to each item type, generate all the sections and have a function for each item that setups
 // TODO: the card for that specific item type
-// Card Rune Setup
-// basic
-//
-// prefix ---------
-//     *
-//     *
-//     *
-// suffix -------------------
-//     *
-//     *
-//     *
-// exclusive -------------
-//     *
-// Rune Skills --------
-//
-// ------------------
-// Who can equip on left and "<Type> Level: <MaxLevel>"
+
 // TODO: Looking into browser storage for current build. If there is a current build, ask if they want to start again or not
 // TODO: As the user puts in gems/runes/etc... save to something like window.currentBuild
 
@@ -29,14 +13,14 @@ function createInfoCard() {
     infoTitle.id = "itemInfoName";
     infoTitle.classList.add('infoTitle');
     infoCard.appendChild(infoTitle);
-    // infoCard.onmouseleave = infoMouseExit;
+    infoCard.onmouseleave = infoMouseExit;
 
     // infoCard.style.display = 'none';
     document.body.appendChild(infoCard);
 
     //Item Info
     let itemInfoSection = document.createElement('div');
-    itemInfoSection.classList.add('infoSection');
+    itemInfoSection.classList.add('infoSectionHeader');
     infoCard.appendChild(itemInfoSection);
 
     createItemDisplay(itemInfoSection, 'itemInfoImage')
@@ -51,25 +35,16 @@ function createInfoCard() {
     itemLevel.id = 'itemType';
     itemInfo.appendChild(itemLevel);
 
-
-    // let expanderContainer = document.createElement('div');
-    // expanderContainer.classList.add('expanderContainer');
-    // expanderContainer.id = 'expanderContainer';
-    // infoCard.appendChild(expanderContainer);
-    //
-    // let expander = document.createElement('div');
-    // expander.classList.add('expander');
-    // expander.id = 'expander';
-    // expander.onmousedown = expanderClicked;
-    // infoCard.appendChild(expander);
-
     // Create the various sections
     createBasicSection(infoCard);
     createPrefixSection(infoCard);
     createSuffixSection(infoCard);
-    createExclusiveSection(infoCard);
+    // createExclusiveSection(infoCard);
     createRuneSkillsSection(infoCard);
     createFooterSection(infoCard);
+    for (let element of infoCard.getElementsByClassName('infoSection')){
+        element.style.display = 'none'
+    }
 
 }
 
@@ -98,9 +73,9 @@ function addSectionName(element, name) {
     sectionTitle.classList.add('sectionName');
     sectionNameDiv.appendChild(sectionTitle);
 
-    let titleSeprator = document.createElement('div');
-    titleSeprator.classList.add('titleLineSeparator');
-    sectionNameDiv.appendChild(titleSeprator);
+    let titleSeparator = document.createElement('div');
+    titleSeparator.classList.add('titleLineSeparator');
+    sectionNameDiv.appendChild(titleSeparator);
 }
 
 function addUnorderedList(element, id) {
@@ -114,15 +89,16 @@ function addUnorderedList(element, id) {
 function createBasicSection(element) {
     let itemBasicSection = document.createElement('div');
     itemBasicSection.classList.add('infoSectionList');
+    itemBasicSection.style.display = 'none';
     itemBasicSection.id = 'itemBasicSection';
     itemBasicSection.style.paddingLeft = '10px';
     element.appendChild(itemBasicSection);
     let ul = addUnorderedList(itemBasicSection, 'basicList');
 
-    // Test Item for helping with positions and styling
-    let basicUnorderedListItem = document.createElement('li');
-    basicUnorderedListItem.textContent = '+1568 All Attrs [1568]';
-    ul.appendChild(basicUnorderedListItem);
+    // // Test Item for helping with positions and styling
+    // let basicUnorderedListItem = document.createElement('li');
+    // basicUnorderedListItem.textContent = '+1568 All Attrs [1568]';
+    // ul.appendChild(basicUnorderedListItem);
 }
 
 function createPrefixListItem (element, level, maxLevel, attribute, attrRange){
@@ -149,6 +125,7 @@ function createPrefixSection(element) {
     let itemPrefixSection = document.createElement('div');
     itemPrefixSection.classList.add('infoSection');
     itemPrefixSection.id = 'itemPrefixSection';
+    itemPrefixSection.style.display = 'none';
     element.appendChild(itemPrefixSection);
 
     addSectionName(itemPrefixSection, 'Prefix');
@@ -158,23 +135,16 @@ function createPrefixSection(element) {
     // Test Item for helping with positions and styling
     let basicUnorderedListItem = document.createElement('li');
     ul.appendChild(basicUnorderedListItem);
-
-    createPrefixListItem(ul, '[Lv5]', false, '+899 INT', '[848-893]')
-    createPrefixListItem(ul, '[Lv7]', true, '+1030 Spell Power', '[848-893]')
-    createPrefixListItem(ul, '[Lv6]', false, '+993 Spell Power', '[972-1020]')
 }
 
 function createSuffixSection(element) {
     let itemSuffixSection = document.createElement('div');
     itemSuffixSection.classList.add('infoSection');
     itemSuffixSection.id = 'itemSuffixSection';
+    itemSuffixSection.style.display = 'none';
     element.appendChild(itemSuffixSection);
     addSectionName(itemSuffixSection, 'Suffix');
     let ul = addUnorderedList(itemSuffixSection, 'suffixList');
-
-    createPrefixListItem(ul, '[Lv6]', false, '+921 INT', '[883-928]')
-    createPrefixListItem(ul, '[Lv3]', true, '+5 Lightning Penetration', '[5-6]')
-    createPrefixListItem(ul, '[Lv7]', true, '+931 INT', '[918-963]')
 }
 
 function createExclusiveListItem(element, attribute, attrCalculation){
@@ -196,11 +166,11 @@ function createExclusiveSection(element) {
     let itemExclusiveSection = document.createElement('div');
     itemExclusiveSection.classList.add('infoSection');
     itemExclusiveSection.id = 'itemExclusiveSection';
+    itemExclusiveSection.style.display = 'none';
     element.appendChild(itemExclusiveSection);
     addSectionName(itemExclusiveSection, 'Exclusive');
     let ul = addUnorderedList(itemExclusiveSection, 'exclusiveList');
 
-    createExclusiveListItem(ul, '+316.2 All Attrs', '[0.6*Hero Level]');
 }
 
 
@@ -248,6 +218,7 @@ function addRuneSkillToTable(element, requirements, effect) {
 function createRuneSkillsSection(element) {
     let itemRuneSkillsSection = document.createElement('div');
     itemRuneSkillsSection.classList.add('infoSection');
+    itemRuneSkillsSection.style.display = 'none';
     itemRuneSkillsSection.id = 'itemRuneSkillsSection';
     element.appendChild(itemRuneSkillsSection);
     addSectionName(itemRuneSkillsSection, 'Rune Skills');
@@ -256,61 +227,6 @@ function createRuneSkillsSection(element) {
     runeSkillsTable.classList.add('runeSkillsTable');
     runeSkillsTable.id = 'runeSkillsTable';
     itemRuneSkillsSection.appendChild(runeSkillsTable);
-
-
-    addRuneSkillToTable(runeSkillsTable,[
-            {
-                "color": "b",
-                "amount": 1
-            }
-        ],
-        "Lightning Penetration +15"
-        );
-
-    addRuneSkillToTable(runeSkillsTable,[
-            {
-                "color": "b",
-                "amount": 2
-            }
-        ],
-        "Max HP +7%"
-    );
-    addRuneSkillToTable(runeSkillsTable,[
-            {
-                "color": "b",
-                "amount": 3
-            }
-        ],
-        "Spell Damage +7%"
-    );
-    addRuneSkillToTable(runeSkillsTable,[
-            {
-                "color": "b",
-                "amount": 4
-            }
-        ],
-        "Lightning Damage +10%"
-    );
-    addRuneSkillToTable(runeSkillsTable,[
-            {
-                "color": "b",
-                "amount": 5
-            }
-        ],
-        "INT +5%"
-    );
-    addRuneSkillToTable(runeSkillsTable, [
-            {
-                "color": "b",
-                "amount": 5
-            },
-            {
-                "color": "g",
-                "amount": 1
-            }
-        ],
-        "Lightning damage dealt by the wearer has a 3% chance to trigger Electrocution."
-    );
 }
 
 function createFooterSection(element) {
@@ -329,5 +245,109 @@ function createFooterSection(element) {
     itemLevel.textContent = '<itemLevel>';
     itemLevel.textContent = 'Rune Level: 520';
     itemFooterSection.appendChild(itemLevel);
+
+}
+
+function createListItem (element, text, color){
+    let unorderedListItem = document.createElement('li');
+    element.appendChild(unorderedListItem);
+
+    let span = document.createElement('span');
+    span.textContent = text;
+    span.style.color = color ? color : '#9b8bef';
+    unorderedListItem.appendChild(span);
+}
+
+function cleanInfoCard(infoImage){
+    for (let element of document.getElementsByClassName('infoCard')[0].getElementsByClassName('infoSection')){
+        element.style.display = 'none'
+    }
+
+    for (let ul of document.getElementsByClassName('infoUnorderedList')) {
+        ul.replaceChildren();
+    }
+    document.getElementById('runeSkillsTable').replaceChildren();
+    infoImage.classList.remove('runeSecondaryListItemImage');
+    infoImage.style.removeProperty('background-image');
+    infoImage.removeAttribute('src');
+}
+
+const infoSections = {
+    [itemType.GEM]: ['itemBasicSection', 'itemSuffixSection'],
+    [itemType.GEAR]: ['itemBasicSection', 'itemPrefixSection', 'itemSuffixSection'],
+    [itemType.HEIRLOOM]: ['itemBasicSection', 'itemPrefixSection', 'itemSuffixSection'],
+    [runeType.PRIMARY]: ['itemBasicSection', 'itemPrefixSection', 'itemSuffixSection', 'itemRuneSkillsSection'],
+    [runeType.SECONDARY]: ['itemBasicSection', 'itemPrefixSection', 'itemSuffixSection'],
+}
+
+function setupInfoCardSections(type){
+    for (let section of infoSections[type]) {
+        document.getElementById(section).style.display = 'block';
+    }
+}
+
+
+function sortRuneSkills (runeSkills){
+    let sortedRunes = {};
+    for (let skill of Object.values(runeSkills)){
+        sortedRunes[skill['requirements'].reduce(function (c, d) {
+            return c + d['amount'];
+        }, 0)] = skill;
+    }
+    return Object.values(sortedRunes);
+}
+
+function populateRuneInformation(rune, image) {
+    let infoImage = document.getElementById('itemInfoImage');
+    cleanInfoCard(infoImage);
+    setupInfoCardSections(rune.rune_type);
+
+    document.getElementById('itemInfoName').textContent = rune.name;
+    console.log(image);
+    infoImage.style.backgroundImage = image;
+
+    createListItem(document.getElementById('basicList'), rune.basic.split('//')[0], "white");
+
+    let prefixList = document.getElementById('prefixList');
+    let prefixes = [...new Set(Array.from(rune.prefix, ({ type }) => type).sort())];
+    for (let prefix of prefixes){
+        createListItem(prefixList, prefix);
+    }
+
+    let suffixList = document.getElementById('suffixList');
+    let suffixes = [...new Set(Array.from(rune.suffix, ({ type }) => type).sort())];
+    for (let suffix of suffixes){
+        createListItem(suffixList, suffix);
+    }
+
+    if(rune.rune_type === runeType.PRIMARY) {
+        document.getElementById('itemType').textContent = "Main Rune";
+        let skillsTable = document.getElementById('runeSkillsTable');
+
+        for (let key of sortRuneSkills(rune.skill)) {
+            addRuneSkillToTable(skillsTable, key.requirements, key.effect)
+        }
+    } else {
+        document.getElementById('itemType').textContent = "Sub Rune";
+        infoImage.classList.add('runeSecondaryListItemImage');
+    }
+}
+
+function populateGemInformation(gem, image) {
+    let infoImage = document.getElementById('itemInfoImage');
+    document.getElementById('itemType').textContent = "Gem";
+    cleanInfoCard(infoImage);
+    setupInfoCardSections(itemType.GEM);
+
+    document.getElementById('itemInfoName').textContent = gem.name;
+    console.log(image);
+    infoImage.style.backgroundImage = image;
+
+
+    let suffixList = document.getElementById('suffixList');
+    let suffixes = [...new Set(Array.from(gem.affix, ({ type }) => type).sort())];
+    for (let suffix of suffixes){
+        createListItem(suffixList, suffix);
+    }
 
 }

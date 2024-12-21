@@ -4,6 +4,7 @@
     flex-flow: column;
     position: absolute;
     width: 360px;
+    max-height: 80%;
     overflow-x: hidden;
     overflow-y: auto;
     background-image: url("../images/ui/backgrounds/common.png");
@@ -31,6 +32,12 @@
 }
 
 .infoSection {
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+}
+
+.infoSectionHeader {
     display: flex;
     flex-flow: row wrap;
     width: auto;
