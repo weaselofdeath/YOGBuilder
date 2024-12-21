@@ -1,0 +1,35 @@
+{
+    "basic": [
+        ""
+    ],
+    "prefix": [
+        "All Damage Reduction",
+        "Luck",
+        "CON",
+        "INT",
+        "STR"
+    ],
+    "suffix": [
+        "Physical Damage Reduction",
+        "Luck",
+        "CON",
+        "INT",
+        "STR",
+        "Spell Damage Reduction"
+    ],
+    "exclusive": [
+        "All Attrs (scale with level)",
+        "Fire Damage Boost",
+        "Physical Mastery",
+        "Lightning Damage Boost",
+        "CON (scale with level)",
+        "Crit Damage Reduction",
+        "Physical Damage Boost",
+        "Frost Damage Boost",
+        "All Damage Boost",
+        "All Damage Reduction",
+        "Crit Damage",
+        "Luck",
+        "Max HP"
+    ]
+}

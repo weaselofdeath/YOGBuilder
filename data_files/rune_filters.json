@@ -1,0 +1,32 @@
+{
+    "basic": [
+        "All Attrs (scale with level) // [all], id: 100",
+        "Physical Damage Boost // [aHarmUP], id: 5120120",
+        "Fire Damage Boost // [injFup], id: 5120121",
+        "Frost Damage Boost // [injIup], id: 5120122",
+        "Lightning Damage Boost // [injLup], id: 5120123",
+        "Attack Speed // [aSpeed], id: 5120118",
+        "Max HP // [adHp], id: 5120132",
+        "Attack Speed // [aSpeed], id: 51201794\nLuck // [luck], id: 51201795"
+    ],
+    "prefix": [
+        "CON",
+        "STR",
+        "INT",
+        "Physical Power",
+        "WIL",
+        "Spell Power",
+        "HP",
+        "Shield"
+    ],
+    "suffix": [
+        "Lura Gained Up",
+        "Lightning Penetration",
+        "Frost Penetration",
+        "INT",
+        "STR",
+        "CON",
+        "WIL",
+        "Fire Penetration"
+    ]
+}

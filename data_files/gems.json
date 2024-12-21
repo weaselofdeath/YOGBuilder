@@ -1,0 +1,956 @@
+[
+    {
+        "name": "Ursus",
+        "unmodified_name": "Gem\u00b7Ursus",
+        "upgrades": {
+            "2": "ATK + 2%",
+            "4": "Normal Attack Damage +10%",
+            "8": "Attack Speed +25%"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10203",
+                "type": "STR"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10204",
+                "type": "STR"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            },
+            {
+                "id": "10103",
+                "type": "ATK"
+            }
+        ],
+        "icon": "item_blackStone11_128",
+        "id": "1001"
+    },
+    {
+        "name": "Occultist",
+        "unmodified_name": "Gem\u00b7Occultist",
+        "upgrades": {
+            "2": "Spell Mastery +2",
+            "4": "Spell Power +5%",
+            "8": "Max Rage +150"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            },
+            {
+                "id": "10103",
+                "type": "ATK"
+            }
+        ],
+        "icon": "item_blackStone04_128",
+        "id": "1002"
+    },
+    {
+        "name": "Raging Beast",
+        "unmodified_name": "Gem\u00b7Raging Beast",
+        "upgrades": {
+            "2": "Physical Mastery +2",
+            "4": "Attack Speed +10%",
+            "8": "Physical Power +5%"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10203",
+                "type": "STR"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10204",
+                "type": "STR"
+            },
+            {
+                "id": "10403",
+                "type": "HP"
+            },
+            {
+                "id": "10504",
+                "type": "Shield"
+            }
+        ],
+        "icon": "item_blackStone01_128",
+        "id": "1003"
+    },
+    {
+        "name": "Arachnia",
+        "unmodified_name": "Gem\u00b7Arachnia",
+        "upgrades": {
+            "2": "Mentality Mastery +2",
+            "4": "Crit Damage Taken reduced by 25%",
+            "8": "Max HP +15%"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10403",
+                "type": "HP"
+            },
+            {
+                "id": "10504",
+                "type": "Shield"
+            }
+        ],
+        "icon": "item_blackStone13_128",
+        "id": "1004"
+    },
+    {
+        "name": "Serpentia",
+        "unmodified_name": "Gem\u00b7Serpentia",
+        "upgrades": {
+            "2": "Charge Skills Cooldown Reduction +10%",
+            "4": "Strikers' Attack Speed +15%",
+            "8": "60% increase in attack speed for 4 seconds after the release of charge type skills"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10203",
+                "type": "STR"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10204",
+                "type": "STR"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            },
+            {
+                "id": "10205",
+                "type": "STR"
+            }
+        ],
+        "icon": "item_blackStone08_128",
+        "id": "1005"
+    },
+    {
+        "name": "Evil Eye",
+        "unmodified_name": "Gem\u00b7Evil Eye",
+        "upgrades": {
+            "2": "Critical Damage +25%",
+            "4": "Physical Power of Hunters +10%",
+            "8": "After killing an enemy, Damage +20% for 5 seconds"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10203",
+                "type": "STR"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10204",
+                "type": "STR"
+            },
+            {
+                "id": "10403",
+                "type": "HP"
+            },
+            {
+                "id": "10205",
+                "type": "STR"
+            }
+        ],
+        "icon": "item_blackStone10_128",
+        "id": "1006"
+    },
+    {
+        "name": "Spectre",
+        "unmodified_name": "Gem\u00b7Spectre",
+        "upgrades": {
+            "2": "Max HP +5%",
+            "4": "+12% Dodge",
+            "8": "Resurrection Chance +15%"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10304",
+                "type": "INT"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            }
+        ],
+        "icon": "item_blackStone06_128",
+        "id": "1007"
+    },
+    {
+        "name": "Wolverine",
+        "unmodified_name": "Gem\u00b7Wolverine",
+        "upgrades": {
+            "2": "Assassins' Critical Rate +10%",
+            "4": "Skill Dodge +10%",
+            "8": "Grant Assassins the [Fulminator] effect"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10304",
+                "type": "INT"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            }
+        ],
+        "icon": "item_blackStone12_128",
+        "id": "1008"
+    },
+    {
+        "name": "Gargoyle",
+        "unmodified_name": "Gem\u00b7Gargoyle",
+        "upgrades": {
+            "2": "Max HP +5%",
+            "4": "Guardians obtain the [Emergency Assist] Skill, can take effect once per battle",
+            "8": "When Barricade is triggered, restore 30% health"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            },
+            {
+                "id": "10005",
+                "type": "CON"
+            }
+        ],
+        "icon": "item_blackStone02_128",
+        "id": "1009"
+    },
+    {
+        "name": "Snow Beetle",
+        "unmodified_name": "Gem\u00b7Snow Beetle",
+        "upgrades": {
+            "2": "Restore 10% of Max Shield every 2 seconds",
+            "4": "Spell Damage +10%",
+            "8": "Activate 3 Frost Shield Orbs. Every time after taking damage a Frost Orb is consumed and returns Frost damage to the attacker and chilling them. Lasts 4 seconds, ICD 30 seconds."
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10304",
+                "type": "INT"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            }
+        ],
+        "icon": "item_blackStone05_128",
+        "id": "1010"
+    },
+    {
+        "name": "Voltaic Vulpes",
+        "unmodified_name": "Gem\u00b7Voltaic Vulpes",
+        "upgrades": {
+            "2": "Restores 1% Max HP every 5 seconds",
+            "4": "Skill Dodge +10%",
+            "8": "When damage is dealt, there is a 15% chance of releasing a forked lightning bolt to up to 3 units within 8 meters of the target, dealing [77+2%*Self Spell Strength] lightning damage and adding a layer of sensory electricity to the target, with a cooldown of 1 second"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10304",
+                "type": "INT"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            }
+        ],
+        "icon": "item_blackStone09_128",
+        "id": "1011"
+    },
+    {
+        "name": "Hoarfrost Hoof",
+        "unmodified_name": "Gem\u00b7Hoarfrost Hoof",
+        "upgrades": {
+            "2": "Frost Damage Boost +5%",
+            "4": "Frost damage dealt increased by 20% to Chilled targets, and Frost damage dealt increased by 50% to Frozen targets",
+            "8": "Normal attacks have a 3% chance of inflicting Chill"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10304",
+                "type": "INT"
+            },
+            {
+                "id": "10305",
+                "type": "INT"
+            }
+        ],
+        "icon": "item_blackStone03_128",
+        "id": "1012"
+    },
+    {
+        "name": "Rime Phoenix",
+        "unmodified_name": "Gem\u00b7Rime Phoenix",
+        "upgrades": {
+            "2": "Ice Resistance +15",
+            "4": "Frost Damage +10%",
+            "8": "When the wearer's normal attack hits the target in [Chilled] state, there is a 20% of chance to trigger a Frost Explosion. Freeze the target and the enemies within a range of 3 meters for 1 sec, causes damage equal to 100% of Spell & Physical Power. (CD: 1sec)"
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10403",
+                "type": "HP"
+            },
+            {
+                "id": "10504",
+                "type": "Shield"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            },
+            {
+                "id": "10103",
+                "type": "ATK"
+            }
+        ],
+        "icon": "item_blackStone07_128",
+        "id": "1013"
+    },
+    {
+        "name": "Cursed Soul",
+        "unmodified_name": "Gem\u00b7Cursed Soul",
+        "upgrades": {
+            "2": "+5% Physical Damage Boost",
+            "4": "+10% Damage Dealt when deals physical damage to enemy under [Weak] status.",
+            "8": "When physical attack critical hits, has 3% chance to [Weak] the target for 4 seconds."
+        },
+        "affix": [
+            {
+                "id": "10203",
+                "type": "STR"
+            },
+            {
+                "id": "10204",
+                "type": "STR"
+            },
+            {
+                "id": "10205",
+                "type": "STR"
+            },
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10403",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            }
+        ],
+        "icon": "item_blackStone15_128",
+        "id": "1014"
+    },
+    {
+        "name": "Songbird",
+        "unmodified_name": "Gem\u00b7Songbird",
+        "upgrades": {
+            "2": "+5% Lightning Damage Boost",
+            "4": "+25% Shield Restoration for Blackguard with Lightning Attributes.",
+            "8": "+10% Lightning Damage Dealt when self Shield is on."
+        },
+        "affix": [
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10304",
+                "type": "INT"
+            },
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10403",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            }
+        ],
+        "icon": "item_blackStone20_128",
+        "id": "1015"
+    },
+    {
+        "name": "Golden Crow",
+        "unmodified_name": "Gem\u00b7Golden Crow",
+        "upgrades": {
+            "2": "+7% Healing dealt",
+            "4": "If the healing target is under [Hypohemia] status, recovery is increased by an additional 25%.",
+            "8": "Healing a target also restores the target's shield equal to 10% of healing value."
+        },
+        "affix": [
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10004",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10403",
+                "type": "HP"
+            },
+            {
+                "id": "10404",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            },
+            {
+                "id": "10504",
+                "type": "Shield"
+            }
+        ],
+        "icon": "item_blackStone26_128",
+        "id": "1016"
+    },
+    {
+        "name": "Skitoceros",
+        "unmodified_name": "Gem\u00b7Skitoceros",
+        "upgrades": {
+            "2": "+50 Initial Rage/Energy",
+            "4": "+5 Rage/Energy Restoration each second",
+            "8": "When shield is on, each Ultimate Skill increases the damage dealt by the next Ultimate Skill by 5%, up to a maximum of 20%, and the damage increase resets to zero when shield reaches 0."
+        },
+        "affix": [
+            {
+                "id": "10203",
+                "type": "STR"
+            },
+            {
+                "id": "10204",
+                "type": "STR"
+            },
+            {
+                "id": "10205",
+                "type": "STR"
+            },
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10304",
+                "type": "INT"
+            },
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            }
+        ],
+        "icon": "item_blackStone22_128",
+        "id": "1017"
+    },
+    {
+        "name": "Flame Dragon",
+        "unmodified_name": "Gem \u00b7 Flame Dragon",
+        "upgrades": {
+            "2": "Fire DMG Boost is increased by 5%.",
+            "4": "Increases Incoming Healing of Fire Type Blackguard by 15%.",
+            "8": "Fire DMG Dealt is increased by 5%, when HP is less than 50%, the Boost effect is increased to 10%."
+        },
+        "affix": [
+            {
+                "id": "10302",
+                "type": "INT"
+            },
+            {
+                "id": "10303",
+                "type": "INT"
+            },
+            {
+                "id": "10304",
+                "type": "INT"
+            },
+            {
+                "id": "10002",
+                "type": "CON"
+            },
+            {
+                "id": "10003",
+                "type": "CON"
+            },
+            {
+                "id": "10101",
+                "type": "WIL"
+            },
+            {
+                "id": "10102",
+                "type": "WIL"
+            },
+            {
+                "id": "10402",
+                "type": "HP"
+            },
+            {
+                "id": "10403",
+                "type": "HP"
+            },
+            {
+                "id": "10503",
+                "type": "Shield"
+            }
+        ],
+        "icon": "item_blackStone14_128",
+        "id": "1018"
+    }
+]

@@ -1,0 +1,4446 @@
+[
+    {
+        "name": "Mysterious Spell",
+        "max_level": "100",
+        "effects": "0 ilvl) Reduce all damage taken except physical damage by 10% + 0.5 x ilvl%\n25 ilvl) While HP is below 50%, increase Fire, Frost and Lightning Resistance by 75%",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Holy Sword Conviction",
+        "max_level": "100",
+        "effects": "0 ilvl) Every time you deal damage to an enemy, increase the amount of damage the enemy takes from the wearer by 0.8% + 0.01 x ilvl%. The trigger interval is 0.5 sec.\n25 ilvl) Deal 25% more damage to bosses",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Lion's Wrath",
+        "max_level": "100",
+        "effects": "0 ilvl) Get Agility effect for each auto attack, which increase attack speed by 1%, increase Evasion chance by 0.5% + 0.01 x ilvl%, last for 4 sec. Caps at 15 stacks.\n25 ilvl) Each stack of Agility reduce skill cooldown by 1%",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Cultist Badge",
+        "max_level": "100",
+        "effects": "0 ilvl) Increase auto attack damage by 25% + 0.5 x ilvl%\n25 ilvl) Regenerate 4% of max HP for each auto attack",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Frost Disaster",
+        "max_level": "100",
+        "effects": "0 ilvl) Deal 15.0% + 0.3 x ilvl% more damage to enemies affected by control restrictions.\n25 ilvl) Gain an Aura that reduces the movement speed of enemies within 15 yards by 30%.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Berserker Spirit",
+        "max_level": "100",
+        "effects": "0 ilvl) Increase the healing effect by 1.00% + 0.02 x ilvl% each time you perform a general attack for 5 sec, stacking up to 10 times.\n25 ilvl) Immune to Freeze, Stun and Chill",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Thunder Guantlet",
+        "max_level": "100",
+        "effects": "0 ilvl) Each normal attack have 15% chance to deals a heavy attack to a nearby enemy, causes chaos damage equal to 1000%+10 x ilvl% of basic damage, and causes a healing by 3% of Max HP.\n25 ilvl) Bash a nearby enemy every 3 seconds.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Eternal Soul",
+        "max_level": "100",
+        "effects": "0 ilvl) Regenerate 10000+500 x ilvl HP per second.\n25 ilvl) When you take no damage for the past 4 seconds, you gain a damage absorbing shield that absorbs 200% of your health regeneration per second.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Draconic Breath",
+        "max_level": "500",
+        "effects": "0 ilvl) Fire damage boost increased by 25%+0.1 x ilvl%\n25 ilvl) When eliminate target with fire damage, release a Flame Impact, causing damage equal to 300% of Physical Power+Spell Power to all targets within 5 meters nearby. The Flame Impact has a 1 sec of trigger interval, and the damage causes won't trigger crit and other effects.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120214",
+                "type": "Fire Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Cursed Runeblade",
+        "max_level": "500",
+        "effects": "0 ilvl) When Sakura wears this, Physical Damage Boost increased by 50%+0.1 x ilvl%\n25 ilvl) When Sakura wears this, she can release an additional slash when physical damage done, causing physical damage equal to 300% of Physical Power to the target and up to 2 surrounding enemies. The Slash has a 1 sec of trigger interval, and the damage causes won't trigger crit and other effects.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120215",
+                "type": "Physical Mastery"
+            }
+        ]
+    },
+    {
+        "name": "Thunder Python's Crystal Remains",
+        "max_level": "500",
+        "effects": "0 ilvl) When Florentia wears, Lightning Damage Boost increased by 50%+0.1 x ilvl%\n25 ilvl) When Florentia wears, The upper limit of Jormungand to be summoned +2, the damage dealt by Jormungand becomes 60% of the original damage.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120216",
+                "type": "Lightning Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Dancer Masque",
+        "max_level": "500",
+        "effects": "0 ilvl) When Rincho equips, All DMG Dealt increased by 5%+0.03 x ilvl%.\n25 ilvl) When Rincho equips, the cooldown of the [Beguiling Flame Dance] reduced by 20%, and the pull range is increased by 2 meters after the [Beguiling Flame Dance] released. For every 10 points of Spell Mastery, increases an additional 1 meter of range to pull the enemies. (Cannot exceed 10 meters.)",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "10001",
+                "type": "CON (scale with level)"
+            }
+        ]
+    },
+    {
+        "name": "Heavenly Damnation",
+        "max_level": "500",
+        "effects": "0 ilvl) When Endelyon equips, Fire Damage Boost increased by 50%+0.1 x ilvl%\n25 ilvl) All enemy targets within 12 meters of Endelyon have a 20% attack speed reduction(40% if targets are ignited). Attack speed reduction is doubled in Arena.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "13600",
+                "type": "Crit Damage Reduction"
+            }
+        ]
+    },
+    {
+        "name": "Signet of Blade",
+        "max_level": "500",
+        "effects": "0 ilvl) When Alice equips, Physical DMG increased by 50%+0.1 x ilvl%\n25 ilvl) When Alice equips, the size of Shock Wave of Netherblade +20%. When Alice deals damage in the battle, double her All DMG Boost and Physical DMG Boost effect, but the Attack Speed Boost effect become half.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120224",
+                "type": "Physical Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Eternal Frozen Mask",
+        "max_level": "500",
+        "effects": "0 ilvl) When Frozen Heart equips, all Damage Dealt increased by 5%+0.03 x ilvl% (the damage boost effect happens separately)\n25 ilvl) When Frozen Heart is on the field, reduces Attack Speed by 25% and Skill Crit Chance by 5% of all enemies within 16 meters of Frozen Heart. ",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120226",
+                "type": "Frost Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Relics of Stag Spirit",
+        "max_level": "500",
+        "effects": "0 ilvl) When Ling equips, All DMG Dealt increased by 5%+0.03 x ilvl%.\n25 ilvl) When Ling equips, her normal attack can additionally attack 1 target, but the granted Attack Speed Boost effect become half.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120226",
+                "type": "Frost Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Execution Stake",
+        "max_level": "500",
+        "effects": "0 ilvl) When Justitia equips, All DMG Dealt increased by 5%+0.03 x ilvl%.\n25 ilvl) When Justitia equips, deal an additional fire damage of 35% Spell Power to burning enemy when dealing damage with a 2 second cooldown. (Illusions can also trigger this effect)",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120230",
+                "type": "Fire Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Badge of Law Maintainer",
+        "max_level": "500",
+        "effects": "0 ilvl) When Edelle equips, All DMG Dealt increased by 5%+0.03 x ilvl%.\n25 ilvl) When an Shield is present, target hit by [Lead the Charge] will be frozen for 1 second.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120226",
+                "type": "Frost Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Wings of Passion",
+        "max_level": "500",
+        "effects": "0 ilvl) When Cacau equips, All DMG Dealt increased by 5%+0.05 x ilvl%.\n25 ilvl) +25% Transform duration of [Shooting Star] if Shield Value is above 0.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120230",
+                "type": "Fire Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Disobedience of Fate",
+        "max_level": "500",
+        "effects": "0 ilvl) When Meine equips, All DMG Dealt increased by 5%+0.05 x ilvl%.\n25 ilvl) When Shield Value is not 0 and using [Lightning Blaze], dispel a buff from all enemies nearby.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120307",
+                "type": "Lightning Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "The Wrath of Dragon",
+        "max_level": "500",
+        "effects": "0 ilvl) When Vina equips, All DMG Dealt increased by 5%+0.05 x ilvl%.\n25 ilvl) Increase the duration of control dealt by Vina's Charge by 50%.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120226",
+                "type": "Frost Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Blade of Scarlet Rage",
+        "max_level": "500",
+        "effects": "0 ilvl) Increases the Damage Dealt from Blaze Rush by x(5%+0.04 x ilvl).\n25 ilvl) The Blaze Rush hitting the burning target will increase its burning effect by 1 second, up to 4 seconds.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "51201802",
+                "type": "All Damage Boost"
+            },
+            {
+                "id": "51201803",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "51201819",
+                "type": "Crit Damage"
+            },
+            {
+                "id": "51201796",
+                "type": "Luck"
+            }
+        ]
+    },
+    {
+        "name": "Head of Battle Frenzy",
+        "max_level": "500",
+        "effects": "0 ilvl) Increases the Damage Dealt from Spin Attack by x(5%+0.04 x ilvl).\n25 ilvl) Each cast of Spin Attack increases the damage of the next Leap or Ground Trample by x10%, up to x50%.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "51201802",
+                "type": "All Damage Boost"
+            },
+            {
+                "id": "51201803",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "51201819",
+                "type": "Crit Damage"
+            },
+            {
+                "id": "51201796",
+                "type": "Luck"
+            }
+        ]
+    },
+    {
+        "name": "Frostbird's Sharp Beak",
+        "max_level": "500",
+        "effects": "0 ilvl) Increases the Damage Dealt from Frost Wave Swords by x(5%+0.04 x ilvl).\n25 ilvl) When Frost Wave Swords critical hits, increases attack speed by 15% for 3 seconds.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "51201802",
+                "type": "All Damage Boost"
+            },
+            {
+                "id": "51201803",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "51201819",
+                "type": "Crit Damage"
+            },
+            {
+                "id": "51201796",
+                "type": "Luck"
+            }
+        ]
+    },
+    {
+        "name": "Grip of Paradise",
+        "max_level": "500",
+        "effects": "0 ilvl) When Komori equips, All DMG Dealt increased by 5%+0.05 x ilvl%.\n25 ilvl) The Spell Power Boost effect from [Forbidden Witchcraft] is increased by 25%.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120307",
+                "type": "Lightning Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Grip of Soul",
+        "max_level": "500",
+        "effects": "0 ilvl) When Morana equips, All DMG Dealt increased by 5%+0.03 x ilvl%.\n25 ilvl) Increase Resistance Reduction Effect from [Obituary of Lifetime] by 50%.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120224",
+                "type": "Physical Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Shedding of the Feathered Dragon",
+        "max_level": "500",
+        "effects": "0 ilvl) When Elizabeth equips, All DMG Dealt increased by 5%+0.05 x ilvl%.\n25 ilvl) [Flaring Pain] status will be added on nearby enemies before each cast of [Fiery Brambles].",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120214",
+                "type": "Fire Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Holy Hoof Totem",
+        "max_level": "500",
+        "effects": "0 ilvl) When Kimberlee wears, increases Kimberlee's All DMG Dealt by 5%+0.05 x ilvl%\n25 ilvl) Arrows fired by [Trio of Arrows] will track nearby enemies randomly.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120224",
+                "type": "Physical Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "royal sword emblem",
+        "max_level": "500",
+        "effects": "0 ilvl) When Heliina wears, all damage caused increases by 5%+0.05 x ilvl%\n25 ilvl) When an ally gains a Frost Ball, Heliina gains a Frost Ball too. (Frost Ball gained from this effect can't trigger effects of other skill or gear, which has Ball Gained related effect. Such like: Orb Master etc.)",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120226",
+                "type": "Frost Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Qingfeng kills demons",
+        "max_level": "500",
+        "effects": "0 ilvl) When Ying equips, All DMG Dealt increased by 5%+0.05 x ilvl%\n25 ilvl) When the battle begins, [Blade Will] is restored to Max points.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120307",
+                "type": "Lightning Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Phantom Dragon's Roar",
+        "max_level": "500",
+        "effects": "0 ilvl) When Irida equips, All DMG Dealt increased by 5%+0.05 x ilvl%.\n25 ilvl) Required stacks for triggering [To Melt the Earth] is reduced by 2.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120214",
+                "type": "Fire Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Seal of Revenge",
+        "max_level": "500",
+        "effects": "0 ilvl) When Chloe equips, All DMG Dealt increased by 5%+0.05 x ilvl%\n25 ilvl) When the battle begins, releases [Ice Forged Armor] to all allies once immediately, last for 8 sec.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120226",
+                "type": "Frost Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Fleeting Figure",
+        "max_level": "500",
+        "effects": "0 ilvl) When Ojeda equips, All DMG Dealt increased by 5%+0.05 x ilvl%.\n25 ilvl) When taking Fatal DMG, dispels all Debuffs from Ojeda, and refresh Cooldown of [Swing Nutcracker] immediately. (The trigger interval is 300 sec)",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120224",
+                "type": "Physical Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Death emblem",
+        "max_level": "500",
+        "effects": "0 ilvl) When Nyanko wears, all Damage Dealt increases by 5%+0.05 x ilvl%\n25 ilvl) The damage interval of Nyanko's special move [Secret: Thunder Prison] is reduced by 0.25 seconds.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120307",
+                "type": "Lightning Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "All things come together",
+        "max_level": "500",
+        "effects": "0 ilvl) When wearing by Weimo, all damage caused increases by 5%+0.05 x ilvl%\n25 ilvl) When Weimo's Ult Skill [Swipe Brush like Wind] is taking effect, grants Frozen and Charmed Immune to all allies. ",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "51201883",
+                "type": "Max HP"
+            }
+        ]
+    },
+    {
+        "name": "Rising waves",
+        "max_level": "500",
+        "effects": "0 ilvl) When Stephine equips, all DMG Dealt increases by 5%+0.05 x ilvl%\n25 ilvl) After creleases Ult skill: [Glacial Quietus], gain 5 of Power Balls and Frost Balls immediately.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120226",
+                "type": "Frost Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Victory Proclamation",
+        "max_level": "500",
+        "effects": "0 ilvl) When Flabellum Seraphia equips, All DMG Dealt increases by 5%+0.05 x ilvl%.\n25 ilvl) During the releasing process of Seraphia's Ult:[Dawnbreaker's Courage], the target hit will be Bind.\r",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120307",
+                "type": "Lightning Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Nightmare Whispers",
+        "max_level": "500",
+        "effects": "0 ilvl) When Chesia equips, All DMG Dealt increased by 5%+0.05 x ilvl%\n25 ilvl) When a unit is Charmed or dead on the field, the DMG Dealt for [Mortal Waltz] is increased by 8%, up to a max of 40%. (Additional DMG Boost lasts until battle ends)",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120214",
+                "type": "Fire Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Eye of foresight",
+        "max_level": "500",
+        "effects": "0 ilvl) When Epona equips, All DMG Dealt increased by 5%+0.05 x ilvl%\n25 ilvl) Casting [Sole Heart] will simultaneously remove stuns, freezes, and Polymorph from yourself and all allies.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120307",
+                "type": "Lightning Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Blooming Alone in Spring",
+        "max_level": "500",
+        "effects": "0 ilvl) When wearing by Everlasting Sol, all damage caused increases by 5%+0.05 x ilvl%\n25 ilvl) When releasing [Global Detonation], immediately gain the upper limit number of energy balls.",
+        "affix_level": "Affix level: 400 - 700",
+        "basic": "",
+        "prefix": [
+            {
+                "id": "5120196",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "5120197",
+                "type": "All Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120210",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "5120211",
+                "type": "Physical Damage Reduction"
+            },
+            {
+                "id": "43001",
+                "type": "Luck"
+            },
+            {
+                "id": "43002",
+                "type": "Luck"
+            },
+            {
+                "id": "5120198",
+                "type": "CON"
+            },
+            {
+                "id": "5120199",
+                "type": "CON"
+            },
+            {
+                "id": "5120200",
+                "type": "CON"
+            },
+            {
+                "id": "5120206",
+                "type": "INT"
+            },
+            {
+                "id": "5120207",
+                "type": "INT"
+            },
+            {
+                "id": "5120208",
+                "type": "INT"
+            },
+            {
+                "id": "5120202",
+                "type": "STR"
+            },
+            {
+                "id": "5120203",
+                "type": "STR"
+            },
+            {
+                "id": "5120204",
+                "type": "STR"
+            },
+            {
+                "id": "5120212",
+                "type": "Spell Damage Reduction"
+            },
+            {
+                "id": "5120213",
+                "type": "Spell Damage Reduction"
+            }
+        ],
+        "exclusive": [
+            {
+                "id": "100",
+                "type": "All Attrs (scale with level)"
+            },
+            {
+                "id": "5120214",
+                "type": "Fire Damage Boost"
+            }
+        ]
+    },
+    {
+        "name": "Spirit of Ling",
+        "max_level": "0",
+        "effects": "0 ilvl) Frost damage inflicted by Blackguard adds 8% Frostbite and 10% damage to Frozen enemies. (Frostbite: when reaches 100%, Freezes the target for 2 seconds)\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Spirit of Endelyon",
+        "max_level": "0",
+        "effects": "0 ilvl) Increase Fire damage by 10% to [Ignited] enemies and cast [Divine Radiance] to self lasting 1 second while taking critical damage. (Cooldown: 120 Seconds)\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Spirit of Sakura",
+        "max_level": "0",
+        "effects": "0 ilvl) When Assassin Blackguard wears, increases All DMG Dealt to the enemies with higher HP than the wearer by 10%.\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Spirit of Florentia",
+        "max_level": "0",
+        "effects": "0 ilvl) When Blackguard deals lightning damage and the damage critical hits, summon a floating cannon lasting 5 seconds. The floating cannon fires a 500% power laser each second. (Cooldown: 10 seconds)\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Spirit of Alice",
+        "max_level": "0",
+        "effects": "0 ilvl) All physical damage dealt has an additional 10% critical strike chance.\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Spirit of Rincho",
+        "max_level": "0",
+        "effects": "0 ilvl) When the wearer releases a special move, a magic shield is added to the teammate with the lowest health, absorbing damage equal to 10% of the wearer's maximum health for 10 seconds. (Trigger interval: 10 seconds)\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Spirit of Justitia",
+        "max_level": "0",
+        "effects": "0 ilvl) +1 Combat Skill Lv\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Spirit of Edelle",
+        "max_level": "0",
+        "effects": "0 ilvl) Charge skills deal 10% more damage and [Freeze] and [Stun] effects last 10% longer.\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    },
+    {
+        "name": "Spirit of Usilotti",
+        "max_level": "0",
+        "effects": "0 ilvl) +1 Ultimate Skill Lv.\n-1 ilvl) Cannot equip when Collection Progress dropped below 72,000.",
+        "basic": "",
+        "prefix": [],
+        "suffix": [],
+        "exclusive": []
+    }
+]

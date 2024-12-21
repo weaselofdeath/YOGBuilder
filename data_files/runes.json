@@ -1,0 +1,3446 @@
+[
+    {
+        "unmodified_name": "Absolute Blade",
+        "name": "Absolute Blade",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5120163": {
+                "effect": "ATK +5%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5120164": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5120165": {
+                "effect": "Physical Mastery +5",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5120166": {
+                "effect": "There is a 5% chance to gain a Rage Ball when normal attack hits, last for 4 seconds.",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5120168": {
+                "effect": "Max Rage Ball +2",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5120167": {
+                "effect": "Increases damage dealt of normal attack by an additional 2% from each Rage Ball.",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 6
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_06",
+        "id": "11001"
+    },
+    {
+        "unmodified_name": "Sunstrider",
+        "name": "Sunstrider",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5120133": {
+                "effect": "Spell Damage +5%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5120134": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5120135": {
+                "effect": "Spell Mastery +6",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5120136": {
+                "effect": "Crit Damage increased by 15%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5120137": {
+                "effect": "INT +5%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 5
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_03",
+        "id": "11003"
+    },
+    {
+        "unmodified_name": "Magic Wrath",
+        "name": "Magic Wrath",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5120145": {
+                "effect": "Physical Damage +5%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5120146": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5120147": {
+                "effect": "Damage Taken from critical hits reduced by 30%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5120148": {
+                "effect": "There is a 5% chance to gain a Power Ball when normal attack hits, last for 4 seconds.",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5120150": {
+                "effect": "Max Power Ball +2",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5120149": {
+                "effect": "Increases damage dealt of ultimate skill by an additional 2% from each Power Ball.",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 6
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_05",
+        "id": "11005"
+    },
+    {
+        "unmodified_name": "Cold Moon",
+        "name": "Cold Moon",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5120139": {
+                "effect": "Spell Damage +5%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5120140": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5120141": {
+                "effect": "Spell Mastery +5",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5120142": {
+                "effect": "There is a 5% chance to gain a Frost Ball when normal attack hits, last for 4 seconds.",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5120144": {
+                "effect": "Max Frost Ball +2",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5120143": {
+                "effect": "Increases Frost damage dealt by an additional 2% from each Frost Ball.",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 6
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_02",
+        "id": "11002"
+    },
+    {
+        "unmodified_name": "Thunder Roar",
+        "name": "Thunder Roar",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5120151": {
+                "effect": "Lightning Penetration +15",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5120152": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5120153": {
+                "effect": "Spell Damage +7%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5120154": {
+                "effect": "Lightning Damage +10%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5120155": {
+                "effect": "INT +5%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5120156": {
+                "effect": "Lightning damage dealt by the wearer has a 3% chance to trigger Electrocution.",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    },
+                    {
+                        "color": "g",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_04",
+        "id": "11004"
+    },
+    {
+        "unmodified_name": "Poison Fang",
+        "name": "Poison Fang",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5120157": {
+                "effect": "All Resistance +5",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5120158": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5120159": {
+                "effect": "Crit Damage increased by 15%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5120160": {
+                "effect": "Chance of being critical hit by normal attack reduced by 7%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5120161": {
+                "effect": "CON +5%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5120162": {
+                "effect": "Physical damage dealt by the wearer has a 3% chance to trigger Poisoning",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    },
+                    {
+                        "color": "r",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_07",
+        "id": "11006"
+    },
+    {
+        "unmodified_name": "Iron Thorn",
+        "name": "Iron Thorn",
+        "max_level": "700",
+        "rune_type": "Secondary rune",
+        "skill": {},
+        "basic": "Physical Damage Boost // [aHarmUP], id: 5120120",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_secondary_02_5",
+        "id": "1001"
+    },
+    {
+        "unmodified_name": "Fire Spell",
+        "name": "Fire Spell",
+        "max_level": "700",
+        "rune_type": "Secondary rune",
+        "skill": {},
+        "basic": "Fire Damage Boost // [injFup], id: 5120121",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_secondary_02_3",
+        "id": "1002"
+    },
+    {
+        "unmodified_name": "Frost Snow",
+        "name": "Frost Snow",
+        "max_level": "700",
+        "rune_type": "Secondary rune",
+        "skill": {},
+        "basic": "Frost Damage Boost // [injIup], id: 5120122",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_secondary_02_4",
+        "id": "1003"
+    },
+    {
+        "unmodified_name": "Thunder Veins",
+        "name": "Thunder Veins",
+        "max_level": "700",
+        "rune_type": "Secondary rune",
+        "skill": {},
+        "basic": "Lightning Damage Boost // [injLup], id: 5120123",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_secondary_02_7",
+        "id": "1004"
+    },
+    {
+        "unmodified_name": "Lightning Strike",
+        "name": "Lightning Strike",
+        "max_level": "700",
+        "rune_type": "Secondary rune",
+        "skill": {},
+        "basic": "Attack Speed // [aSpeed], id: 5120118",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_secondary_02_8",
+        "id": "1005"
+    },
+    {
+        "unmodified_name": "Strong Rock",
+        "name": "Strong Rock",
+        "max_level": "700",
+        "rune_type": "Secondary rune",
+        "skill": {},
+        "basic": "Max HP // [adHp], id: 5120132",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_secondary_02_6",
+        "id": "1006"
+    },
+    {
+        "unmodified_name": "Holy Wind",
+        "name": "Holy Wind",
+        "max_level": "700",
+        "rune_type": "Secondary rune",
+        "skill": {},
+        "basic": "Attack Speed // [aSpeed], id: 51201794\nLuck // [luck], id: 51201795",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_secondary_02_2",
+        "id": "11007"
+    },
+    {
+        "unmodified_name": "Exuberant",
+        "name": "Exuberant",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300000": {
+                "effect": "+7% Physical Damage Boost",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300001": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300002": {
+                "effect": "Physical Mastery +5",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300003": {
+                "effect": "Physical Damage hits have a 3% chance of getting a Rage Ball for 4 seconds, with a maximum stack of 3.",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300004": {
+                "effect": "Each Rage Ball increases skill damage by an additional 2%.",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300005": {
+                "effect": "STR+5%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 6
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_12",
+        "id": "11008"
+    },
+    {
+        "unmodified_name": "Frostbite",
+        "name": "Frostbite",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300006": {
+                "effect": "+10% Frost Damage Boost",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300007": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300008": {
+                "effect": "Spell Mastery +5",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300009": {
+                "effect": "Frost Damage hits have a 3% chance of getting a Frost Ball.",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300010": {
+                "effect": "Each Frost Ball increases HP regeneration effects by 2%.",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300011": {
+                "effect": "Increase the duration of Frost Ball by 1 second.",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 6
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_13",
+        "id": "11009"
+    },
+    {
+        "unmodified_name": "Degenerate",
+        "name": "Degenerate",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300012": {
+                "effect": "+5% Physical Damage Boost",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300013": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300014": {
+                "effect": "Physical Mastery +5",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300015": {
+                "effect": "Crit Damage increased by 15%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300016": {
+                "effect": "STR+5%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300017": {
+                "effect": "Increas the Physical Damage to the poisoned target by 8%.",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    },
+                    {
+                        "color": "r",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_10",
+        "id": "11010"
+    },
+    {
+        "unmodified_name": "Blade of Thunder",
+        "name": "Blade of Thunder",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300018": {
+                "effect": "Physical Penetration +15",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300019": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300020": {
+                "effect": "+7% Physical Damage Boost",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300021": {
+                "effect": "+10% Physical Skill Damage",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300022": {
+                "effect": "Physical Damage hits have a 3% chance of getting a Power Ball for 4 seconds, with a maximum stack of 3.",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300023": {
+                "effect": "STR+5%",
+                "requirements": [
+                    {
+                        "color": "b",
+                        "amount": 5
+                    },
+                    {
+                        "color": "g",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_11",
+        "id": "11011"
+    },
+    {
+        "unmodified_name": "Waning Moon",
+        "name": "Waning Moon",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300024": {
+                "effect": "+5% Lightning Damage Boost",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300025": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300026": {
+                "effect": "Damage Taken from critical hits reduced by 30%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300027": {
+                "effect": "Lightning Damage hits have a 3% chance of getting a Lightning Ball for 4 seconds, with a maximum stack of 3.",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300028": {
+                "effect": "Each Lightning Ball increases Lightning Damage Boost by an additional 2%.",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300029": {
+                "effect": "INT+5%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 6
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_14",
+        "id": "11012"
+    },
+    {
+        "unmodified_name": "Devil Roar",
+        "name": "Devil Roar",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300030": {
+                "effect": "Frost Penetration +15",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300031": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300032": {
+                "effect": "+7% Spell Damage Boost",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300033": {
+                "effect": "+10% Frost Damage Boost",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300034": {
+                "effect": "Frost damage has a 3% chance of triggering [Chilled] status, increasing the effect of [Chilled] status by 3%.",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300035": {
+                "effect": "INT+5%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 5
+                    },
+                    {
+                        "color": "g",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_08",
+        "id": "11013"
+    },
+    {
+        "unmodified_name": "Light Guard",
+        "name": "Light Guard",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300036": {
+                "effect": "Reduces Physical damage taken by 5%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300037": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300038": {
+                "effect": "+5% Lifesteal Resistance",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300039": {
+                "effect": "+15% Max Shield Value",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300040": {
+                "effect": "WIL+5%",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300041": {
+                "effect": "When taking damage, if there is no shield value, immediately restore 10% of Max Shield Value. (Cooldown: 10 seconds)",
+                "requirements": [
+                    {
+                        "color": "r",
+                        "amount": 5
+                    },
+                    {
+                        "color": "b",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_09",
+        "id": "11014"
+    },
+    {
+        "unmodified_name": "Athanasia",
+        "name": "Athanasia",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300042": {
+                "effect": "Reduces Spell damage taken by 5%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300043": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300044": {
+                "effect": "+5% Lifesteal Resistance",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300045": {
+                "effect": "+15% Max Shield Value",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300046": {
+                "effect": "WIL+5%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300047": {
+                "effect": "When taking damage, if under [Hypohemia] status, immediately restore 5% of Max HP. (Cooldown: 10 seconds)",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 5
+                    },
+                    {
+                        "color": "b",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_16",
+        "id": "11015"
+    },
+    {
+        "unmodified_name": "Fireplayer",
+        "name": "Fireplayer",
+        "max_level": "700",
+        "rune_type": "Primary rune",
+        "skill": {
+            "5300048": {
+                "effect": "Fire Penetration +15",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 1
+                    }
+                ]
+            },
+            "5300049": {
+                "effect": "Max HP +7%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 2
+                    }
+                ]
+            },
+            "5300050": {
+                "effect": "+7% Spell Damage Boost",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 3
+                    }
+                ]
+            },
+            "5300051": {
+                "effect": "Fire Damage hits have a 3% chance of getting a Power Ball.",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 4
+                    }
+                ]
+            },
+            "5300052": {
+                "effect": "+10% Fire Damage Boost",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 5
+                    }
+                ]
+            },
+            "5300053": {
+                "effect": "CON+5%",
+                "requirements": [
+                    {
+                        "color": "g",
+                        "amount": 5
+                    },
+                    {
+                        "color": "r",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "basic": "All Attrs (scale with level) // [all], id: 100",
+        "prefix": [
+            {
+                "id": "33012",
+                "type": "CON"
+            },
+            {
+                "id": "5120179",
+                "type": "CON"
+            },
+            {
+                "id": "5120113",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120114",
+                "type": "INT"
+            },
+            {
+                "id": "5120185",
+                "type": "INT"
+            },
+            {
+                "id": "10601",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120189",
+                "type": "Physical Power"
+            },
+            {
+                "id": "5120115",
+                "type": "WIL"
+            },
+            {
+                "id": "5120181",
+                "type": "WIL"
+            },
+            {
+                "id": "5120117",
+                "type": "Spell Power"
+            },
+            {
+                "id": "5120190",
+                "type": "Spell Power"
+            },
+            {
+                "id": "10405",
+                "type": "HP"
+            },
+            {
+                "id": "5120116",
+                "type": "Shield"
+            }
+        ],
+        "suffix": [
+            {
+                "id": "5120128",
+                "type": "Lura Gained Up"
+            },
+            {
+                "id": "5120129",
+                "type": "Lightning Penetration"
+            },
+            {
+                "id": "5120130",
+                "type": "Frost Penetration"
+            },
+            {
+                "id": "5120172",
+                "type": "INT"
+            },
+            {
+                "id": "5120186",
+                "type": "INT"
+            },
+            {
+                "id": "5120171",
+                "type": "STR"
+            },
+            {
+                "id": "5120184",
+                "type": "STR"
+            },
+            {
+                "id": "5120169",
+                "type": "CON"
+            },
+            {
+                "id": "5120180",
+                "type": "CON"
+            },
+            {
+                "id": "5120170",
+                "type": "WIL"
+            },
+            {
+                "id": "5120182",
+                "type": "WIL"
+            },
+            {
+                "id": "5120131",
+                "type": "Fire Penetration"
+            }
+        ],
+        "icon": "item_RuneStone_Primary_15",
+        "id": "11016"
+    }
+]
