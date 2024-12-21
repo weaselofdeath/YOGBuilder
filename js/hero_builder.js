@@ -334,27 +334,10 @@ function populateAndMoveInfoCard(e, parent) {
         case 'gem':
             let gem = findGemItem(name);
             if (gem) {
-
-
-
                 let img = parent.querySelector("img");
                 populateGemInformation(gem, 'url(' +img.src+')')
                 infoCard.style.display = 'block';
                 positionInfoCard(infoCard, e);
-
-
-
-                // document.getElementById('itemType').textContent = "Gem";
-                // document.getElementById('itemInfoName').textContent = gem.name;
-                // // document.getElementById('itemInfoLevel').textContent = 'Max Level: N/A';
-                // for (let child of parent.childNodes) {
-                //     if (child.tagName === 'IMG') {
-                //         infoImage.style.backgroundImage = 'url(' + child.src + ')';
-                //     }
-                // }
-                // let infoCard = document.getElementsByClassName('infoCard')[0];
-                // infoCard.style.display = 'block';
-                // positionInfoCard(infoCard, e);
             }
             break;
         default:

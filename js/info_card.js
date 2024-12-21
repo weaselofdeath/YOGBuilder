@@ -29,11 +29,11 @@ function createInfoCard() {
     itemInfo.classList.add('infoItem');
     itemInfoSection.appendChild(itemInfo);
 
-    let itemLevel = document.createElement('p');
-    itemLevel.textContent = '<Item Type>';
-    itemLevel.classList.add('itemType');
-    itemLevel.id = 'itemType';
-    itemInfo.appendChild(itemLevel);
+    let itemType = document.createElement('p');
+    itemType.textContent = '<Item Type>';
+    itemType.classList.add('itemType');
+    itemType.id = 'itemType';
+    itemInfo.appendChild(itemType);
 
     // Create the various sections
     createBasicSection(infoCard);
@@ -303,7 +303,6 @@ function populateRuneInformation(rune, image) {
     setupInfoCardSections(rune.rune_type);
 
     document.getElementById('itemInfoName').textContent = rune.name;
-    console.log(image);
     infoImage.style.backgroundImage = image;
 
     createListItem(document.getElementById('basicList'), rune.basic.split('//')[0], "white");
@@ -319,6 +318,7 @@ function populateRuneInformation(rune, image) {
     for (let suffix of suffixes){
         createListItem(suffixList, suffix);
     }
+    document.getElementById('itemLevel').textContent = 'Max Level: '+rune.max_level;
 
     if(rune.rune_type === runeType.PRIMARY) {
         document.getElementById('itemType').textContent = "Main Rune";
@@ -349,5 +349,7 @@ function populateGemInformation(gem, image) {
     for (let suffix of suffixes){
         createListItem(suffixList, suffix);
     }
+
+    document.getElementById('itemLevel').textContent = '';
 
 }
