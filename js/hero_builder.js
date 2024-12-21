@@ -45,77 +45,9 @@ function createHeroForm() {
     document.body.appendChild(form);
 }
 
-function createInfoCard() {
-    // Basic Card Setup
-    let infoCard = document.createElement('div');
-    infoCard.classList.add('infoCard');
-    const infoTitle = document.createElement('p');
-    infoTitle.textContent = "<Item Name>";
-    infoTitle.id = "itemInfoName";
-    infoTitle.classList.add('infoTitle');
-    infoCard.appendChild(infoTitle);
-    // infoCard.onmouseleave = infoMouseExit;
-
-    // infoCard.style.display = 'none';
-    document.body.appendChild(infoCard);
-
-    //Item Info
-    let itemInfoSection = document.createElement('div');
-    itemInfoSection.classList.add('infoSection');
-    infoCard.appendChild(itemInfoSection);
-
-
-    createItemDisplay(itemInfoSection, 'itemInfoImage')
 
 
 
-    let itemInfo = document.createElement('div');
-    itemInfo.classList.add('infoItem');
-    itemInfoSection.appendChild(itemInfo);
-
-    let itemLevel = document.createElement('p');
-    itemLevel.textContent = '<Item Type>';
-    itemLevel.classList.add('itemType');
-    itemLevel.id = 'itemType';
-    itemInfo.appendChild(itemLevel);
-
-    // let itemLevel = document.createElement('p');
-    // itemLevel.textContent = 'Max Level: N/A';
-    // itemLevel.id = 'itemInfoLevel';
-    // itemInfo.appendChild(itemLevel);
-
-
-    let expanderContainer = document.createElement('div');
-    expanderContainer.classList.add('expanderContainer');
-    expanderContainer.id = 'expanderContainer';
-    infoCard.appendChild(expanderContainer);
-
-    let expander = document.createElement('div');
-    expander.classList.add('expander');
-    expander.id = 'expander';
-    expander.onmousedown = expanderClicked;
-    infoCard.appendChild(expander);
-
-    // Additional Item Info
-    // Gems - Upgrades and Affixes
-    // Runes: Rune type, skill, basic, prefix, suffix
-    // addGemAdditionalInfo(expanderContainer);
-    addRuneAdditionalInfo(expanderContainer);
-
-}
-
-function createItemDisplay(element, imgId){
-    let imageBackground = document.createElement('div');
-    imageBackground.classList.add('infoImage');
-    imageBackground.style.backgroundImage = 'url(./images/ui/backgrounds/mythic.png)';
-    element.appendChild(imageBackground);
-    let imageBlock = document.createElement('div');
-    imageBlock.id = imgId;
-    imageBackground.appendChild(imageBlock);
-    let imageBorder = document.createElement('div');
-    imageBorder.style.backgroundImage = 'url(./images/ui/borders/mythic.png)';
-    imageBlock.appendChild(imageBorder);
-}
 
 function createSetupCard() {
     let setupCard = document.createElement('div');
@@ -313,22 +245,22 @@ function addDropDown(element, title, options) {
     }
 }
 
-function expanderClicked() {
-    toggleInfoExpand();
-}
-
-function toggleInfoExpand(expanded) {
-    if (expanded === undefined || expanded === null) {
-        document.getElementById('expander').classList.toggle('expanded');
-        document.getElementById('expanderContainer').classList.toggle('expanded');
-    } else if (expanded) {
-        document.getElementById('expander').classList.add('expanded');
-        document.getElementById('expanderContainer').classList.add('expanded');
-    } else {
-        document.getElementById('expander').classList.remove('expanded');
-        document.getElementById('expanderContainer').classList.remove('expanded');
-    }
-}
+// function expanderClicked() {
+//     toggleInfoExpand();
+// }
+//
+// function toggleInfoExpand(expanded) {
+//     if (expanded === undefined || expanded === null) {
+//         document.getElementById('expander').classList.toggle('expanded');
+//         document.getElementById('expanderContainer').classList.toggle('expanded');
+//     } else if (expanded) {
+//         document.getElementById('expander').classList.add('expanded');
+//         document.getElementById('expanderContainer').classList.add('expanded');
+//     } else {
+//         document.getElementById('expander').classList.remove('expanded');
+//         document.getElementById('expanderContainer').classList.remove('expanded');
+//     }
+// }
 
 // TODO: Look at db files and create a mapping of items/gem to icons/pictures
 // TODO: Also look up stats for each one
@@ -410,7 +342,7 @@ function infoLabelMouseDown(e) {
     populateAndMoveInfoCard(e, this.parentNode, true)
 }
 
-function populateAndMoveInfoCard(e, parent, isExpanded) {
+function populateAndMoveInfoCard(e, parent) {
     let type = parent.dataset.type;
     let name = parent.dataset.name;
     let infoImage = document.getElementById('itemInfoImage');
@@ -435,9 +367,6 @@ function populateAndMoveInfoCard(e, parent, isExpanded) {
                     }
                 }
                 let infoCard = document.getElementsByClassName('infoCard')[0];
-                if (isExpanded !== undefined) {
-                    toggleInfoExpand(isExpanded)
-                }
                 infoCard.style.display = 'block';
                 positionInfoCard(infoCard, e);
             }
@@ -452,9 +381,6 @@ function populateAndMoveInfoCard(e, parent, isExpanded) {
                     if (child.tagName === 'IMG') {
                         infoImage.style.backgroundImage = 'url(' + child.src + ')';
                     }
-                }
-                if (isExpanded !== undefined) {
-                    toggleInfoExpand(isExpanded)
                 }
                 let infoCard = document.getElementsByClassName('infoCard')[0];
                 infoCard.style.display = 'block';

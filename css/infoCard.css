@@ -1,0 +1,175 @@
+.infoCard {
+    z-index: 50;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    width: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: url("../images/ui/backgrounds/common.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #4A4942, #3F3E3C) 1;
+    border-width: 5px;
+}
+
+.infoTitle {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #DAC5FF;
+    text-shadow: 2px 2px 2px #000000;
+    background-image: url("../images/ui/title/mythic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    line-height: 210%;
+    margin: -8px -5px 0;
+}
+
+.infoSection {
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+}
+
+.infoSectionList {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.infoCard > div:first-of-type {
+    margin-top: 15px;
+}
+
+.infoCard > .infoSection {
+    padding-left: 10px;
+}
+
+.infoImage {
+    /*margin-left: 5px;*/
+    /*margin-top: 10px;*/
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.infoImage > div > div {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.infoImage > div{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.infoImage > div.runeSecondaryListItemImage{
+    background-size: 30%, 78%;
+}
+
+.infoItem {
+    padding-left: 10px;
+    display: flex;
+    flex-flow: column;
+    width: auto;
+    min-width: auto;
+}
+
+.infoFooter {
+    display: flex;
+    flex-flow: row;
+    padding: 5px 5px 15px;
+    border-style: solid;
+    border-image: linear-gradient(to right, transparent, #A3A3A3, transparent) 1 0 0;
+    border-width: 3px;
+}
+
+.infoFooter > span#whoCanEquip {
+    color: #BAACD5;
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: 6px;
+}
+
+.infoFooter > span#itemLevel {
+    color: white;
+    font-size: 12px;
+    margin-right: 6px;
+    text-align: right;
+}
+
+
+.infoUnorderedList {
+    padding-left: 0;
+    list-style: none;
+    padding-top: 0;
+    margin-top: 6px;
+}
+
+.infoUnorderedList li {
+    padding-left: 20px;
+    background-image: url("../images/ui/li_img.png");
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    background-position-y: 1px;
+    background-size: 13px;
+    color: white;
+}
+
+.infoUnorderedList li span {
+    margin-right: 4px;
+    font-weight: bold;
+}
+
+.sectionName {
+    display: flex;
+    color: white;
+    margin: 0;
+    padding-left: 4px;
+    font-weight: bold;
+}
+
+.titleLineSeparator {
+    border-style: solid;
+    border-image: linear-gradient(to right, white, transparent) 1 0 0;
+    border-width: 3px;
+    flex: 1;
+    margin: 8px 0 0 4px;
+}
+
+.runeSkillRequirementsCell {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 60px;
+}
+
+.runeSkillDescriptionCell {
+    color: white;
+    font-size: 12px;
+}
+
+.runeSkillRequirementsCell,
+.runeSkillDescriptionCell {
+    padding-top: 6px;
+}
+
+.runeSkillTick {
+    height: 1rem;
+    max-width: 4px;
+    flex: 1;
+    margin-right: 4px;
+    transform: skew(-0.06turn, 18deg);
+    border-radius: 4px;
+}
