@@ -39,7 +39,7 @@ function createHeroForm() {
     form.appendChild(mainDisplayDiv); // Append stacked divs container
 
     createInfoCard();
-    // createSetupCard()
+    createSetupCard()
 
     // Append the form to the body
     document.body.appendChild(form);
@@ -107,13 +107,13 @@ function createInfoCard() {
 function createItemDisplay(element, imgId){
     let imageBackground = document.createElement('div');
     imageBackground.classList.add('infoImage');
-    imageBackground.style.backgroundImage = 'url(/images/ui/backgrounds/mythic.png)';
+    imageBackground.style.backgroundImage = 'url(./images/ui/backgrounds/mythic.png)';
     element.appendChild(imageBackground);
     let imageBlock = document.createElement('div');
     imageBlock.id = imgId;
     imageBackground.appendChild(imageBlock);
     let imageBorder = document.createElement('div');
-    imageBorder.style.backgroundImage = 'url(/images/ui/borders/mythic.png)';
+    imageBorder.style.backgroundImage = 'url(./images/ui/borders/mythic.png)';
     imageBlock.appendChild(imageBorder);
 }
 
@@ -121,6 +121,7 @@ function createSetupCard() {
     let setupCard = document.createElement('div');
     setupCard.classList.add('setupCard');
     setupCard.id = 'setupCard';
+    setupCard.style.display = 'none';
     const infoTitle = document.createElement('p');
     infoTitle.textContent = "Item Properties";
     infoTitle.classList.add('infoTitle');
@@ -580,9 +581,9 @@ function createRuneItem(element, runeItem) {
     let image = document.createElement('img');
     if (runeItem.rune_type === runeType.SECONDARY){
         image.classList.add('runeSecondaryListItemImage');
-        image.style.backgroundImage = 'url(/images/rune/' + runeItem.icon + '.png), url(/images/rune/rune_white.png)';
+        image.style.backgroundImage = 'url(./images/rune/' + runeItem.icon + '.png), url(./images/rune/rune_white.png)';
     } else {
-        image.src = '/images/rune/' + runeItem.icon + '.png';
+        image.src = './images/rune/' + runeItem.icon + '.png';
     }
     runeListItem.appendChild(image);
 
@@ -705,7 +706,7 @@ function createGemItem(element, gemItem) {
     gemListItem.setAttribute('data-name', gemItem.name);
 
     let image = document.createElement('img');
-    image.src = '/images/gem/' + gemItem.icon + '.png';
+    image.src = './images/gem/' + gemItem.icon + '.png';
     gemListItem.appendChild(image);
 
     let gemName = document.createElement('p');
@@ -734,7 +735,7 @@ function dragMouseDown(e) {
         let name = this.dataset.name;
         let fromId = this.dataset.fromId;
         let secondary = !!this.childNodes[0].style.backgroundImage;
-        let imageUrl = this.childNodes[0].style.backgroundImage ? this.childNodes[0].style.backgroundImage.replace(", url(\"/images/rune/rune_white.png\")", "") : 'url(' + this.childNodes[0].src+ ')';
+        let imageUrl = this.childNodes[0].style.backgroundImage ? this.childNodes[0].style.backgroundImage.replace(", url(\"./images/rune/rune_white.png\")", "") : 'url(' + this.childNodes[0].src+ ')';
         this.remove();
         let droppedElement = document.elementFromPoint(e.clientX, e.clientY);
         droppedElement = droppedElement.classList.contains('HexSlot') ? droppedElement : droppedElement.parentNode;
@@ -807,7 +808,7 @@ function setupItem(element, type, name) {
                     element.setAttribute('data-secondary-rune-color', selectedColor);
                     let secondaryRuneElement = document.createElement('div');
                     secondaryRuneElement.style.backgroundImage = element.style.backgroundImage;
-                    element.style.backgroundImage = 'url(/images/rune/rune_' + selectedColor + '.png), radial-gradient(#595959, #000000)';
+                    element.style.backgroundImage = 'url(./images/rune/rune_' + selectedColor + '.png), radial-gradient(#595959, #000000)';
                     element.classList.add('SecondaryRune');
                     element.appendChild(secondaryRuneElement);
                 }
