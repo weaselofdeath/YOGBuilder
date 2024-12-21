@@ -403,9 +403,9 @@ button {
     background-size: 200% auto;
     color: white;
     display: block;
-    border: 0px;
+    border: 0;
     font-weight: 700;
-    box-shadow: 0px 0px 14px -7px #d7d7d7;
+    box-shadow: 0 0 14px -7px #d7d7d7;
     background-image: linear-gradient(45deg, #373737 0%, #878787 51%, #373737 100%);
     cursor: pointer;
     user-select: none;

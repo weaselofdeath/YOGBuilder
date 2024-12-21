@@ -145,7 +145,7 @@ function setupCardDiscardButton() {
     document.getElementById('setupCard').style.display = 'none';
 }
 
-function setupAcceptButton(e) {
+function setupAcceptButton() {
     let initiator = document.getElementById('setupCard').dataset.initiator
     let element = document.getElementById(initiator)
     let type = element.dataset.type;
@@ -791,7 +791,7 @@ function dragMouseDown(e) {
     }
 }
 
-function setupItem(element, type, name, typeArgs) {
+function setupItem(element, type, name) {
     switch (type) {
         case itemType.RUNE:
             rune = findRuneItem(name);
